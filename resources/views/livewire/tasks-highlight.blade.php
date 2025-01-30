@@ -1,4 +1,4 @@
-<div class="bg-white overflow-hidden shadow-sm rounded-3xl">
+<div class=" overflow-hidden rounded-3xl">
     <div class="p-6 text-gray-900">
         <div class="flex items-center justify-between">
             <div class="flex flex-col gap-3">
@@ -8,19 +8,20 @@
                 </h4>
             </div>
             <div>
-                <button class="bg-sky-100 px-4 py-2 rounded-lg text-sky-800 text-lg font-bold shadow-sm hover:shadow-lg transition hover:scale-105">
+                <button class="bg-white px-4 py-2 rounded-lg text-sky-800 text-lg font-bold shadow hover:shadow-lg transition hover:scale-105">
                     + New Task
                 </button>
             </div>
         </div>
 
-        <div class="my-5 flex items-center gap-3 divide-x-2 text-gray-500">
+
+        <div class="my-5 flex flex-wrap items-center gap-3 divide-x-2 text-gray-500">
             <div class="text-sm font-bold text-sky-800 flex items-center justify-center gap-x-3">
-                All Tasks
+                All
                 <livewire:tab-count count="10" shade="sky" isActive={{true}} />
             </div>
             <div class="pl-2 flex items-center justify-center gap-x-3">
-                Active Tasks
+                Active
                 <livewire:tab-count count="0" shade="gray" />
             </div>
             <div class="pl-2 flex items-center justify-center gap-x-3">
@@ -28,7 +29,7 @@
                 <livewire:tab-count count="0" shade="gray" />
             </div>
             <div class="pl-2 flex items-center justify-center gap-x-3">
-                Canceled
+                Archived
                 <livewire:tab-count count="0" shade="gray" />
             </div>
         </div>

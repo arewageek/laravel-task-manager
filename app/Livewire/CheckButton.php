@@ -6,7 +6,7 @@ use Livewire\Component;
 
 class CheckButton extends Component
 {
-    public $isChecked;
+    public $isChecked = false;
 
     public function toggleState() {
         $this -> isChecked = !$this -> isChecked;
