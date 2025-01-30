@@ -14,9 +14,10 @@
             </div>
         </div>
 
+
         <div class="my-5 flex flex-wrap items-center gap-3 divide-x-2 text-gray-500">
             <div class="text-sm font-bold text-sky-800 flex items-center justify-center gap-x-3">
-                All Tasks
+                All
                 <livewire:tab-count count="10" shade="sky" isActive={{true}} />
             </div>
             <div class="pl-2 flex items-center justify-center gap-x-3">
@@ -24,7 +25,7 @@
                 <livewire:tab-count count="0" shade="gray" />
             </div>
             <div class="pl-2 flex items-center justify-center gap-x-3">
-                Closed
+                Completed
                 <livewire:tab-count count="0" shade="gray" />
             </div>
             <div class="pl-2 flex items-center justify-center gap-x-3">

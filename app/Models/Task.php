@@ -10,7 +10,9 @@ class Task extends Model
         'name',
         'creator',
         'description',
-        'status'
+        'topic',
+        'status',
+        'deadline'
     ];
 
     protected $table = "tasks";
