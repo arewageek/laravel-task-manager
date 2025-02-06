@@ -8,9 +8,9 @@
                 </h4>
             </div>
             <div>
-                <button class="bg-white px-4 py-2 rounded-lg text-sky-800 text-lg font-bold shadow hover:shadow-lg transition hover:scale-105">
+                <a href="/tasks/create" class="bg-white px-4 py-2 rounded-lg text-sky-800 text-lg font-bold shadow hover:shadow-lg transition hover:scale-105">
                     + New Task
-                </button>
+                </a>
             </div>
         </div>
 

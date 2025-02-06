@@ -7,7 +7,9 @@ use Livewire\Component;
 class TabCount extends Component
 {
     public $count = 0;
-    public $shade = "gray";
+
+    public $shade = 'gray';
+
     public $isActive = false;
 
     public function render()
