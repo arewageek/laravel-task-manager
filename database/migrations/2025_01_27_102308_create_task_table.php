@@ -13,12 +13,12 @@ return new class extends Migration
     {
         Schema::create('tasks', function (Blueprint $table) {
             $table->id();
-            $table -> integer('creator');
-            $table -> string("title");
-            $table -> string("topic");
-            $table -> string('description');
-            $table -> enum('status', ['active', 'completed', 'archived']) -> default(('active'));
-            $table -> date('deadline');
+            $table->integer('creator');
+            $table->string('title');
+            $table->string('topic');
+            $table->string('description');
+            $table->enum('status', ['active', 'completed', 'archived'])->default(('active'));
+            $table->date('deadline');
             $table->timestamps();
         });
     }
