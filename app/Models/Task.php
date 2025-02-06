@@ -12,8 +12,8 @@ class Task extends Model
         'description',
         'topic',
         'status',
-        'deadline'
+        'deadline',
     ];
 
-    protected $table = "tasks";
+    protected $table = 'tasks';
 }
